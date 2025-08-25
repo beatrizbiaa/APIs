@@ -1,0 +1,72 @@
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #102e8d, #022a5c);
+    padding: 20px;
+    color: #fcfcfc;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgb(247, 245, 245);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fafafa;
+    text-shadow: 1px 1px 2px rgba(66, 66, 66, 0.1);
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+input[type="text"] {
+    padding: 10px 15px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #072a55;
+    box-shadow: 0 0 5px rgba(0,114,255,0.5);
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #053674;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #06315c;
+    transform: translateY(-2px);
+}
+
+#temperatura {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
